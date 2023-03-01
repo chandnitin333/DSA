@@ -14,7 +14,7 @@ class MyQueue {
         this.rear ++ ;
     }
 
-    delQueue(){
+    delQueue(): any{
         if(!this.isEmpty(this.myQueue)){
             const item =  this.myQueue[this.front];
             delete this.myQueue[this.front];
@@ -40,6 +40,7 @@ myq.addQueue(10);
 myq.addQueue(20);
 myq.addQueue(30);
 myq.addQueue(40);
+myq.addQueue(50);
 myq.printQueue();
 myq.delQueue();
 myq.delQueue();
