@@ -1,7 +1,23 @@
 {
   "dependencies": {
     "axios": "^1.3.4",
+    "csv-parse": "^5.3.6",
     "express": "^4.18.2",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "name": "prog",
+  "version": "1.0.0",
+  "main": "BufferDemo.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
