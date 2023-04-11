@@ -24,29 +24,28 @@
 
 
 // demo()
-// console.log("a" + 2);
-// console.log("a"-2);
-// console.log("b">"a");
-// console.log(2 * "b");
-// console.log("2" + "4");
-// console.log((2 + 3) + "a")
+console.log("a" + 2);
+console.log("a"-2);
+console.log("b">"a");
+console.log(2 * "b");
+console.log("2" + "4");
+console.log((2 + 3) + "a")
 
 
 // function call1(){
-//         console.log(a);
-//         var a = 3;
-//         function call2(){
-//             console.log(a)
-//             var a = 4;
-//             console.log(a);
-//         }
-//         call2();
+//       console.log(a);
+//       var a = 3;
+//       function call2(){
+//        console.log(a)
+//        var a = 4;
+//        console.log(a);
+//       }
+//       call2();
 //     }
 //     call1();
 //     var a = 2;
 
 // deaded later queue 
-
 
 
 
@@ -117,27 +116,27 @@ this.a = 3;
 
 function call1(){
 
-    this.a = 2;
+  this.a = 2;
 
-    const call2 = function (){
+  const call2 = function (){
 
-        console.log(this.a);
+   console.log(this.a);
 
-        this.a = 5;
+   this.a = 5;
 
-        function call3(){
+   function call3(){
 
-            console.log(this.a);
+    console.log(this.a);
 
-            this.a = 4;
+    this.a = 4;
 
-        }
+   }
 
-        call3();
+   call3();
 
-    }
+  }
 
-    call2();
+  call2();
 
 }
 
