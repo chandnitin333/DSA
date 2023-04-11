@@ -5,7 +5,7 @@ let isBalanced = (input) => {
 
     for (let bracket of input) {
         let bracketsIndex = brackets.indexOf(bracket)
-
+        
         if (bracketsIndex % 2 === 0) {
             stack.push(bracketsIndex + 1)
         } else {
@@ -14,6 +14,7 @@ let isBalanced = (input) => {
             }
         }
     }
+  
     return stack.length === 0
 }
 

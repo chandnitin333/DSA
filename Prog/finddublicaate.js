@@ -26,11 +26,12 @@ console.log(eleCount)
 console.log("=============================================================================")
 
 
-str = str.toLowerCase();
-str = str.split('');
+// str = str.toLowerCase();
+// str = str.split('');
 
-for (const iterator of str) {
-    console.log(iterator)
-    if()
-}
+// for (const iterator of str) {
+//     console.log(iterator)
+//     console.log(obj.hasOwnProperty("key"));
+// }
 
+str.slice(-1)

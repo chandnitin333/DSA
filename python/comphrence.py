@@ -1,10 +1,10 @@
 
-lst = [i for i in range(10) if i % 2]
+lst = [i for i in range(1, 10) if i % 2 == 0]
 
 print(lst)
 
 
-dists = {i:i * i for i in range(1,10)}
+dists = {i: i * i for i in range(1, 10)}
 
 print(dists)
 
@@ -13,8 +13,10 @@ print(dists)
 GENERATOR
 
 """
+
+
 def sqrt(num):
-    for i in range(1,num):
+    for i in range(1, num):
         yield i*i
 
 
@@ -26,26 +28,12 @@ print(next(i))
 print(next(i))
 
 
-
 """
 ITERATOR 
 """
 
-iter_list = iter(['A','B','C'])
+iter_list = iter(['A', 'B', 'C'])
 
 print(next(iter_list))
 print(next(iter_list))
 print(next(iter_list))
-
-
-
-
-
-
-
-
-
-
-
-
-
