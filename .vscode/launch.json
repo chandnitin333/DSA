@@ -20,8 +20,15 @@
             "type": "node",
             "name": "Run Current File",
             "request": "launch",
-            "program": "${workspaceFolder}/Prog/LinkedList.js"
-        },
-       
+            "program": "${workspaceFolder}/Prog/arrayFun.js"
+        }
+        // },
+        // {
+        //     "type": "node-terminal",
+        //     "name": "Run Script: test",
+        //     "request": "launch",
+        //     "command": "npm run test",
+        //     "cwd": "${workspaceFolder}/Prog"
+        // }
     ]
 }

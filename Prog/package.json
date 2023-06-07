@@ -2,21 +2,29 @@
   "dependencies": {
     "async": "^3.2.4",
     "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "core-js": "^3.30.1",
     "csv-parse": "^5.3.6",
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "mongodb": "^5.2.0",
     "mongoose": "^7.0.3",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
     "jest": "^29.5.0",
+    "mocha": "^9.2.2",
     "supertest": "^6.3.3"
   },
   "name": "prog",
   "version": "1.0.0",
   "main": "BufferDemo.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha --timeout 10000 --force exit ",
     "test-watch": "jest --watch"
   },
   "keywords": [],

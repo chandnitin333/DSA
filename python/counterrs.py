@@ -5,7 +5,16 @@ print(Counter(['B','B','A','B','C','A','B',
                'B','A','C']))
     
 # with dictionary 
-print(Counter({'A':3, 'B':5, 'C':2}))
+# print(Counter({'A':3, 'B':5, 'C':2}))
     
-# with keyword arguments 
-print(Counter(A=3, B=5, C=2))
+# # with keyword arguments 
+# print(Counter(A=3, B=5, C=2))
+
+
+
+ls =[1,2,3]
+ls1 = [3,6,7,8]
+
+ls.extend(ls1)
+
+print(ls)
