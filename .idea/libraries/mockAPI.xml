@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mockAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mockAPI.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

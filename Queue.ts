@@ -42,6 +42,8 @@ myq.addQueue(30);
 myq.addQueue(40);
 myq.addQueue(50);
 myq.printQueue();
-myq.delQueue();
-myq.delQueue();
+// myq.delQueue();
+// myq.delQueue();
 myq.printQueue();
+
+console.log(myq)

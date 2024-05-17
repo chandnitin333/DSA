@@ -4,6 +4,7 @@ function sum(a) {
     }
 }
 
+
 console.log(sum(10)(20)(30)())
 
 
@@ -14,22 +15,26 @@ const obj = {
 
 Object.freeze(obj);
 
+const curryUnaryFunction = (a) => (b) => (c) => a + b + c;
+
+curryUnaryFunction(1); // returns a function: b => c =>  1 + b + c
+curryUnaryFunction(1)(2); // returns a function: c => 3 + c
+console.log(curryUnaryFunction(1)(2)(3));
 
 
-console.log(a)
-let a = 10
-let b = 20
+// let a = 10
+// let b = 20
 
 
-function demo(){
-    console.log(a)
-    console.log(b)
-    let b = 10
+// function demo() {
+//     console.log(a)
+//     console.log(b)
+//     let b = 10
 
-}
+// }
 
 
-console.log(a);
-console.log(b)
+// console.log(a);
+// console.log(b)
 
-demo()
+// demo()

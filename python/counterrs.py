@@ -12,9 +12,9 @@ print(Counter(['B','B','A','B','C','A','B',
 
 
 
-ls =[1,2,3]
-ls1 = [3,6,7,8]
+# ls =[1,2,3]
+# ls1 = [3,6,7,8]
 
-ls.extend(ls1)
+# ls.extend(ls1)
 
-print(ls)
+# print(ls)

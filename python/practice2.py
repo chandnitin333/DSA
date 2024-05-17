@@ -1,12 +1,12 @@
 str = "Nitin Satish Chandekar"
 dit = dict()
 str= str.upper()
-for i in range(len(str)):
-    if str[i] in dit.keys() :
-        dit.update({str[i] : dit[str[i]] +1 })
+for str in str:
+    if str in dit.keys() :
+        dit.update({str : dit[str] +1 })
 
     else:
-         dit.update({str[i]: 1})
+         dit.update({str: 1})
 
     
 

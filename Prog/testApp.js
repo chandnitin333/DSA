@@ -15,7 +15,7 @@ app.post('/launch', function (req, res) {
         name: "Nitin Chandekar",
         age: 23
     }
-    res.send(data);
+    res.status(200).send(data);
 });
 
 app.listen(4000);

@@ -8,7 +8,7 @@ if (cluster.isMaster) {
   console.log(`Master ${process.pid} is running`);
  
   // Fork workers.
-  for (let i = 0; i < npm install pm2 -g; i++) {
+  for (let i = 0; i < totalCPUs; i++) {
     cluster.fork();
   }
  
@@ -25,7 +25,7 @@ if (cluster.isMaster) {
     res.send("Hello World!");
   });
  
-  app.get("/api/:n", function (req, res) {
+  app.get("/api/ :n", function (req, res) {
     let n = parseInt(req.params.n);
     let count = 0;
  

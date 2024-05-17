@@ -12,7 +12,7 @@ server.on('request', (req, res) => {
     //     res.end(data.toString());
     // })
 
-    const rstream = fs.createReadStream("sample.txt");
+    const rstream = fs.createReadStream("/Users/nitinchandekar/Personal/NODE/DSA/Prog/sample.txt");
     rstream.on('data', (chunkdata) => {
         res.write(chunkdata)
     });

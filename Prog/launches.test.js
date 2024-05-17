@@ -16,7 +16,7 @@ describe('Test GET /launch', () => {
 describe('Test POST /launch', () => {
 
 
-    test('Its should be respond with 200 Creaated', async () => {
+    test('Its should be respond with 201 Creaated', async () => {
 
         const response = await request(app)
             .post('/launch')
